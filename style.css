@@ -1,0 +1,405 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Impact, Haettenschweiler, 'Franklin Gothic Medium', ;
+}
+
+body {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    background-color: rgb(250, 250, 250);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.nav>.logo {
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+.nav>.rightside {
+    margin-top: 10px;
+    margin-right: 90px;
+    width: 260px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.header>.blog {
+    text-decoration: none;
+    color: rgba(124, 78, 228, 1);
+
+}
+
+.header>.about {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.header>.contact {
+    background-color: #7C4EE4;
+    color: white;
+    border: none;
+    width: 95px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.rightside>.menubtn {
+    display: none;
+}
+
+.child1 {
+    display: flex;
+    background-color: #7C4EE4;
+    width: 1360px;
+    height: 796px;
+    margin-top: 20px;
+
+}
+
+.padding {
+    /* margin-top: 112px;
+     */
+    margin-left: 102px;
+    height: 474px;
+    width: 580px;
+}
+
+.padding>.fp {
+    width: 126;
+    height: 24px;
+    color: white;
+    margin-top: 180px;
+    font-size: 16px;
+
+}
+
+.padding >.middletxt {
+    width: 540px;
+    font-size: 64px;
+    color: white;
+    line-height: 86px;
+    margin-top: 30px;
+}
+
+.padding>.starttxt {
+    color: white;
+    font-size: 11.49px;
+    height: 96px;
+    width: 416px;
+    line-height: 150%;
+    margin-top: 30px;
+}
+
+.padding>.more {
+    font-size: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 48px;
+    padding-left: 48px;
+    border: none;
+    border-radius: 8px;
+}
+
+.page1>.pg1pic {
+    width: 608px;
+    height: 576px;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+.pg {
+    width: 1200px;
+    height: 600px;
+    padding: 55px;
+    position: absolute;
+
+}
+
+.para1 {
+    padding: 40px;
+    background-color: white;
+    margin-top: 400px;
+    margin-left: 476px;
+    height: 258px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.fline {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.dev {
+    font-size: 20px;
+}
+
+.date {
+    margin-left: 10px;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.txt {
+    font-size: 32px;
+
+}
+
+.extra {
+    width: 670px;
+    opacity: 0.7;
+    margin-top: 15px;
+}
+
+.pg2all>.read {
+    font-size: 12px;
+    width: 160px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 48px;
+    padding-left: 48px;
+    border-radius: 8px;
+    color: #7C4EE4;
+    border: 2px solid #7C4EE4;
+    margin-top: 40px;
+}
+
+.bar {
+    margin-top: 800px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar>.rpost {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.bar>.rdmore {
+    font-size: 12px;
+    width: 160px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 48px;
+    padding-left: 48px;
+    border-radius: 8px;
+    color: #ffffff;
+    border: 2px solid #7C4EE4;
+    background-color: #7C4EE4;
+    margin-top: 30px;
+}
+
+.pg3bg {
+    margin-top: 20px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+.pg2all2>.rdmore {
+    font-size: 12px;
+    width: 160px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 48px;
+    padding-left: 48px;
+    border-radius: 8px;
+    color: #ffffff;
+    border: 2px solid #7C4EE4;
+    background-color: #7C4EE4;
+    margin-top: 30px;
+}
+
+.pg2all2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 90px;
+    margin-left: 800px;
+}
+
+.pg2all2>.extra {
+    width: 500px;
+}
+
+.all {
+    display: flex;
+    margin-top: 500px;
+    justify-content: space-between;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 30px;
+}
+
+.cards>.img {
+    width: 380px;
+    height: 340px;
+    border-radius: 20px;
+}
+
+.cards>.title {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.title>.travel {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.title>.date {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.cards>.mainttxt {
+    font-size: 26px;
+    width: 340px;
+    margin-top: 20px;
+}
+
+.cards>.extra {
+    width: 340px;
+}
+
+.cards>.rmore {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.bar2 {
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar2>.rpost {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.bar2>.rdmore {
+    font-size: 12px;
+    width: 160px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 48px;
+    padding-left: 48px;
+    border-radius: 8px;
+    color: #ffffff;
+    border: 2px solid #7C4EE4;
+    background-color: #7C4EE4;
+    margin-top: 30px;
+}
+
+.allcards2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last2pg {
+    margin-top: 40px;
+}
+
+.last2pg>.bgcolor {
+    background-color: #7C4EE4;
+    height: 500px;
+    width: 1360px;
+    position: absolute;
+}
+
+.last2pg>.alltxt {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+}
+
+.alltxt>.txt {
+    font-size: 55px;
+    width: 816px;
+    height: 150px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 130px;
+    color: #ffffff;
+}
+
+.alltxt>.inp>input {
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: 300px;
+    padding-left: 20px;
+    border: none;
+
+}
+
+.alltxt>.inp>.gs {
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    background-color: #7C4EE4;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: 1px solid #ffffff;
+    margin-top: 30px;
+}
+
+.alltxt>.moretxt {
+    color: #ffffff;
+    font-size: 20px;
+    width: 680px;
+    opacity: 0.7;
+    margin-left: 370px;
+    margin-top: 40px;
+}
+
+.footer {
+    margin-top: 600px;
+    text-align: center;
+}
+
+.footer>.logo {
+    width: 180px;
+    height: 48px;
+}
+
+.footer>.link {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+.footer>.smlogo {
+    margin-top: 20px;
+}
